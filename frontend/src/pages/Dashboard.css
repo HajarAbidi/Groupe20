@@ -1,0 +1,51 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-container h2 {
+  color: #2e7d32;
+}
+
+.course-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.course-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.course-card h4 {
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+}
+
+.course-card button {
+  margin-top: 1rem;
+  background: #2e7d32;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.course-card button:hover {
+  background: #1b5e20;
+}

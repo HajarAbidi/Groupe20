@@ -1,0 +1,14 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5%;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+.hero-text h1 { font-size: 42px; }
+.green { color: #2e7d32; }
+.cta-btn { padding: 12px 24px; background-color: #2e7d32; color: white; border-radius: 8px; border: none; cursor: pointer; }
+.hero-image img { width: 320px; }
+.caption { margin-top: 12px; background: #f0f0f0; padding: 10px; border-radius: 10px; font-size: 14px; color: #333; }

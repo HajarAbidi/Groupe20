@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.logo-highlight {
+  color: #2e7d32; /* Vert pro */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #2e7d32;
+}
+
+.navbar-buttons .btn {
+  margin-left: 1rem;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.btn.login {
+  background: none;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+}
+
+.btn.login:hover {
+  background: #2e7d32;
+  color: white;
+}
+
+.btn.register {
+  background: #2e7d32;
+  color: white;
+}
+
+.btn.register:hover {
+  background: #1b5e20;
+}
